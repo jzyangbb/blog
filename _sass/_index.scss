@@ -6,6 +6,10 @@
             color: #223253;
         }
     }
+    .clear{
+        display: block;
+        clear: both;
+    }
     .left {
         >ul {
             padding: 0;
@@ -61,6 +65,14 @@
                     }
                 }
             }
+        }
+        .love{
+            height: 50px;
+        }
+        .welcome{
+            float: left;
+        }
+        .desc{
         }
         .pagination {
             text-align: center;
@@ -151,7 +163,8 @@
 }
 @media screen and (max-width: 770px) {
     .page[index] {
-        .left>ul li {
+        .left
+        >ul li {
             h2 {
                 font-size: 22px;
             }
@@ -170,5 +183,24 @@
                 }
             }
         }
+        .love{
+            display: none;
+        }
+        .desc{
+            margin-top: 20px;
+            display: block;
+        }
+    }
+    .ad-box-right{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 770px){
+     .ad-box-bottom{
+        display: none;
+    }
+    .ad-box-bottom-img{
+        display: none;
     }
 }

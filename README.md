@@ -1,11 +1,5 @@
 # About this Cool Concise Jekyll Blog Theme 🤘🤘🤘
 
-[![GitHub stars](https://img.shields.io/github/stars/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/network)
-[![GitHub issues](https://img.shields.io/github/issues/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/issues)
-[![GitHub release](https://img.shields.io/github/release/Gaohaoyang/gaohaoyang.github.io.svg)](https://github.com/Gaohaoyang/gaohaoyang.github.io/releases)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Gaohaoyang/gaohaoyang.github.io/master/LICENSE)
-
 **[中文版 Chinese README 请点击这里 🇨🇳](https://github.com/Gaohaoyang/gaohaoyang.github.io/blob/master/README-zh-cn.md)**
 
 With the escalation of jekyll version, but I also want to reconstruct my older blog theme, so I did reconstruction and added some features recently. My new blog theme will still be stored in this repository. I will also use this theme in the future. Now I have done basically, then I will focus on issues that users opend to make theme better.
@@ -299,38 +293,6 @@ Visit localhost:4000 to see your blog!!!
 ### 6. Push to GitHub
 
 If there is nothing wrong, push code to your github!
-
-## Donate
-
-You can also donate me for a coffee, and I'll do better. Thanks.
-
-|                                                                     PayPal                                                                     |                                 Wechat Pay                                  |                                   Alipay                                    |
-|:----------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|
-| [![PayPal](https://www.paypalobjects.com/webstatic/paypalme/images/pp_logo_small.png)<br>Donate via PayPal ](https://www.paypal.me/gaohaoyang) | ![wechat](http://ww2.sinaimg.cn/large/7011d6cfjw1f3bkdw3bslj206z06q3z6.jpg) | ![alipay](http://ww2.sinaimg.cn/large/7011d6cfjw1f3bk8ikzoij20740743z5.jpg) |
-
-
-Thanks these friends!!!
-
-* 2017.02.06 received Light ¥10.24
-* 2017.01.15 received Wechat user ¥6.66
-* 2016.12.17 received HitNoah ¥12.00
-* 2016.12.09 received 情融 ¥6.60
-* 2016.11.25 received Wechat user ¥6.66
-* 2016.11.16 received Wechat user ¥1.00
-* 2016.10.24 received 奇峰 ¥6.66
-* 2016.10.21 received 旭廷 ¥10.00
-* 2016.09.25 received 鑫 ¥6.66
-* 2016.08.25 received Erlend Aakre $2.50
-* 2016.08.10 received Wechat user ¥4.40
-* 2016.07.25 received 邓炳初 ¥6.66
-* 2016.07.11 received 彦风 ¥6.66
-* 2016.07.07 received Klci ¥2.50
-* 2016.05.08 received 1057 ¥10.57
-* 2016.05.07 received 吴林 ¥2
-* 2016.04.29 received 北归 ¥10
-* 2016.04.28 received 魏楚阳_Brian ¥2
-* 2016.04.28 received 薛彬 ¥8.8
-
 
 ## Update Log
 

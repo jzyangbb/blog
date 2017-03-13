@@ -31,7 +31,23 @@ layout: default
         </div>
         <hr>
         <article itemscope itemtype="http://schema.org/BlogPosting">
-        {{content}}
+            {{content}}
+            <blockquote>
+                <p>
+                    {% if site.ad_taobao_11 %}
+                    <!--感谢大家的支持，领取双11红包，获得推广费用来维持网站的运行，谢谢理解。  感谢大家的支持，推荐淘宝抢购活动  
+                    <a href="{{site.ad_taobao_11}}" onclick="_hmt.push(['_trackEvent', 'block.thankbabe.com', 'click', 'redbag_bottom_post', 1])" target="_blank">[去领取]</a>
+                    <br>
+                    -->
+                    {% endif %}
+                    转载请申明原文地址，谢谢合作
+                    <br>
+                    如有任何想说的请留言哦，我会根据大家的建议修改有疑义的内容  
+                    <br>
+                    欢迎大家关注我的
+                    <a href="https://github.com/SFLAQiu" target="_blank">Github</a>
+                </p>
+            </blockquote>
         </article>
         <hr>
 
@@ -42,7 +58,7 @@ layout: default
                 {% for thisTag in page.tags %}
                     {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and tag == thisTag %}
                         {% if hasSimilar.size == 0 %}
-                        <h2 id="similar_posts">Similar Posts</h2>
+                        <h2 id="similar_posts">类似 文章</h2>
                         <ul>
                         {% endif %}
                         <li class="relatedPost">
@@ -64,7 +80,7 @@ layout: default
 
         {% include previousAndNext.html %}
 
-        <h2 id="comments">Comments</h2>
+        <h2 id="comments">留言</h2>
         {% include comments.html %}
 
 

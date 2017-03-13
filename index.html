@@ -4,14 +4,14 @@ layout: default
 
 <div class="page clearfix" index>
     <div class="left">
-       <h1 class="welcome">Welcome 来了既是缘分!</h1>
+        <h1 class="welcome">Welcome 来了既是缘分!</h1>
         <div class="love">
             <input id="toggle-heart" type="checkbox" checked="checked"/>
             <label for="toggle-heart" aria-label="like">❤</label>
         </div>
         <span class="clear"></span>
         <br>
-        <small>这里记录着我的学习，总结，分享之路</small>
+        <small cass="desc">这里记录着我的学习，总结，分享之路</small>
         <hr>
         <ul>
             {% for post in paginator.posts %}
@@ -93,7 +93,7 @@ layout: default
                     Categories
                 </div>
                 <ul class="content-ul" cate>
-                    {% for category in site.categories %}
+                    {% for category in site.categories order:ascending %}
                     <li>
                         <a href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}" class="categories-list-item" cate="{{ category | first }}">
                             <span class="name">
@@ -125,7 +125,7 @@ layout: default
 
                     {% if max == min %}
                         {% assign diff = 1 %}
-                    {% else %}
+                    {% else %}    
                         {% assign diff = max | minus: min %}
                     {% endif %}
 
@@ -162,5 +162,6 @@ layout: default
         </div>
     </div>
 </div>
+
 <!-- <script src="{{ "/js/scroll.min.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
 <!-- <script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script> -->
