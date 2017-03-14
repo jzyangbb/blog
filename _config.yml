@@ -7,7 +7,7 @@
 
 # Site settings
 title: StuYJZ
-brief-intro: "追逐全栈技术"
+brief-intro: "关注性能、效率、大型网站架构及分布式应用"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jzyangbb.github.io" # the base hostname & protocol for your site
 #ad_taobao_11: ""
