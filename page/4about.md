@@ -7,7 +7,7 @@ icon: heart
 
 * content
 {:toc}
-.NET高级后端工程师，[返还网](http://www.fanhuan.com)     
+.JAVA高级后端工程师
 
 一个从事WEB后端开发，一心牵挂前端技术，为成为真正的全栈攻城狮不间断的前进！
   
@@ -74,9 +74,9 @@ icon: heart
 
 ## 联系我
 
-* 微信:DreamYYQ
-* Email：[563644741@qq.com](mailto:{{ site.email }})
-* QQ:563644741
+* 微信:jzyangbb
+* Email：[771403413@qq.com](mailto:{{ site.email }})
+* QQ:771403413
 
 ---
 
