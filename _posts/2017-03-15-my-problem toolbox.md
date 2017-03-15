@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "我的问题排查工具箱"
+date:   2017-03-15 12:00:05 +0800
+categories: 开发
+tags: 问题排查 Linux命令 java三板斧
+author: YYQ
+---
+
+
+##我的问题排查工具箱
+###前言
+平时的工作中经常碰到很多疑难问题的处理，在解决问题的同时，有一些工具起到了相当大的作用，在此书写下来，一是作为笔记，可以让自己后续忘记了可快速翻阅，二是分享，希望看到此文的同学们可以拿出自己日常觉得帮助很大的工具，大家一起进步。
+
+闲话不多说，开搞。
+
+###Linux命令类
+####tail
+最常用的tail -f
+tail -300f shopbase.log #倒数300行并进入实时监听文件写入模式
+
+``` java
+//DAL
+public List<MDatas> searchs(var title=""){
+    if(title.isNullOrEmpty())reurn;
+    var sqlStr=@"
+        select fields 
+        from tablename
+        where title title=@title;
+    //下面 链接DB执行语句返回数据table绑定对象集合 省略。。。
+    //....
+}
+
+```
+
+---
