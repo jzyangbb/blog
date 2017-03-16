@@ -18,11 +18,10 @@ author: YYQ
 ### Linux命令类
 #### tail
 最常用的tail -f
-
-
 ``` bash
 tail -300f shopbase.log #倒数300行并进入实时监听文件写入模式
 ```
+---  
 #### grep
 ``` bash
 grep forest f.txt   #文件查找
@@ -60,6 +59,8 @@ ps -ef | grep java
 top -H -p pid
 ```
 获得线程10进制转16进制后jstack去抓看这个线程到底在干啥
+
+---  
 
 ### java三板斧，噢不对，是七把
 #### jps
