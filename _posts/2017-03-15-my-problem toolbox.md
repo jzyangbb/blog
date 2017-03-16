@@ -21,7 +21,14 @@ author: YYQ
 ``` bash
 tail -300f shopbase.log #倒数300行并进入实时监听文件写入模式
 ```
----  
+
+
+
+
+
+
+
+
 #### grep
 ``` bash
 grep forest f.txt   #文件查找
